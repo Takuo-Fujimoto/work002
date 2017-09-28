@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 19px;
+}
+
+.Header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  transform: translate3d(0, 0, 0);
+  width: 100%
+}
+.HeaderHeight {
+  height: 72px;
+}
+.ContentsMargin {
+  margin-top: 77px;
+}
+
+.PressedButton {
+  padding: 0px 5px;
+}
+
+.PressedButton:active {
+  position: relative;
+  top: 2px;
+}
